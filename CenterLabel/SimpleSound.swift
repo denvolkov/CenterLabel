@@ -30,7 +30,7 @@ class SimpleSound {
     
     private func soundURL(forName name: String) -> URL?
     {
-        let fileExtensions = ["m4a", "wav" , "mp3"]
+        let fileExtensions = ["m4a", "mp3"]
      
         for fileExtention in fileExtensions {
             if let soundURL =
