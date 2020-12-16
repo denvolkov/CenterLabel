@@ -13,6 +13,8 @@
 		5206A0FB258342A000078A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5206A0F9258342A000078A89 /* Main.storyboard */; };
 		5206A0FD258342A800078A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5206A0FC258342A800078A89 /* Assets.xcassets */; };
 		5206A100258342A800078A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5206A0FE258342A800078A89 /* LaunchScreen.storyboard */; };
+		524AA4FE2589F1BE00C27606 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 524AA4FC2589F1BE00C27606 /* Screenshot02.png */; };
+		524AA4FF2589F1BE00C27606 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 524AA4FD2589F1BE00C27606 /* Screenshot01.png */; };
 		526D752525838611007BD120 /* banka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 526D752425838611007BD120 /* banka.m4a */; };
 		526D752825838655007BD120 /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D752725838655007BD120 /* SimpleSound.swift */; };
 		52C5520D2588AF0B00B5DE1D /* teatr.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 52C5520C2588AF0B00B5DE1D /* teatr.m4a */; };
@@ -27,6 +29,8 @@
 		5206A0FC258342A800078A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5206A0FF258342A800078A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5206A101258342A800078A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524AA4FC2589F1BE00C27606 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		524AA4FD2589F1BE00C27606 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		526D752425838611007BD120 /* banka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = banka.m4a; sourceTree = "<group>"; };
 		526D752725838655007BD120 /* SimpleSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
 		52C5520C2588AF0B00B5DE1D /* teatr.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = teatr.m4a; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 		5206A0F2258342A000078A89 /* CenterLabel */ = {
 			isa = PBXGroup;
 			children = (
+				524AA5012589F1C500C27606 /* Screenshots */,
 				52C5520C2588AF0B00B5DE1D /* teatr.m4a */,
 				526D752425838611007BD120 /* banka.m4a */,
 				526D752725838655007BD120 /* SimpleSound.swift */,
@@ -74,6 +79,15 @@
 				5206A101258342A800078A89 /* Info.plist */,
 			);
 			path = CenterLabel;
+			sourceTree = "<group>";
+		};
+		524AA5012589F1C500C27606 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				524AA4FD2589F1BE00C27606 /* Screenshot01.png */,
+				524AA4FC2589F1BE00C27606 /* Screenshot02.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +150,10 @@
 				52C5520D2588AF0B00B5DE1D /* teatr.m4a in Resources */,
 				5206A100258342A800078A89 /* LaunchScreen.storyboard in Resources */,
 				5206A0FD258342A800078A89 /* Assets.xcassets in Resources */,
+				524AA4FF2589F1BE00C27606 /* Screenshot01.png in Resources */,
 				5206A0FB258342A000078A89 /* Main.storyboard in Resources */,
 				526D752525838611007BD120 /* banka.m4a in Resources */,
+				524AA4FE2589F1BE00C27606 /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
